@@ -1,0 +1,56 @@
+/*Welcome to your CSS Level One Assessment!*/
+
+
+body{
+	background-color: #add8e6
+}
+
+h1{
+	border: 1px solid black;
+}
+
+h2{
+	color:purple;
+}
+
+
+input{
+	border: 2px solid rgb(204, 0, 0);
+}
+
+div p{
+	background-color: #ffff66;
+}
+
+
+
+#textblock{
+	border: 5px solid gray;
+	width: 800px;
+	height: 400px; 
+}
+
+
+
+/*This doesn't work anymore*/
+a{
+	color:red;
+}
+
+
+
+#itemone{
+	text-decoration: overline;
+	color: purple;
+}
+
+.exit{
+	background-color:#0099cc;
+	border: 4px dashed  #ffdb4d;
+}
+
+
+/*Due to security breach; Doesn't work. */
+a:visited{
+	color: blue;
+}

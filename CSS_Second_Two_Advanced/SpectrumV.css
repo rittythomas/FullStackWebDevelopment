@@ -1,0 +1,43 @@
+h1{
+	font-family: 'Staatliches', cursive;
+	text-align: center;
+
+}
+.art
+{
+	margin:auto;
+}
+body{
+	font-size: 16px;
+	background-color:#c3f4ff;
+}
+p{
+	text-align: center;
+	font-size: 2.0em;
+	font-family: 'Amatic SC', cursive;
+}
+td{
+	padding: 100px;
+	height: 200px;
+	border: 6px solid white;
+}
+#one{
+	background-color: #ffbb53;
+	  
+}
+#two{
+	background-color: #ff9f5e;
+	  
+}
+#three{
+	background-color: #ff8b4c;
+	  
+}
+#four{
+	background-color:#d89b3d;
+	  
+}
+#five{
+	background-color:#e5ad25;
+	  
+}

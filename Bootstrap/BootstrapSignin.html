@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans+Condensed:300|Staatliches" rel="stylesheet">
+
+</head>
+<body>
+<!-- Custom Styles-->
+
+	<style type="text/css">
+		#Lob{
+			font-family: 'Lobster', cursive;
+		}
+		#head{
+			font-family: 'Staatliches', cursive;
+		}
+		#sub{
+			font-family: 'Open Sans Condensed', sans-serif;
+
+		}
+	</style>	
+</body>
+</html>
+
+<!-- Nagivation Bar-->
+
+ <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+  <a class="navbar-brand" href="#"><img class="rounded-circle"src="https://image.freepik.com/free-vector/coffee-machine-made-of-coffee-icons_1085-162.jpg" width="35" height="35" alt=""></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="Bootstrap.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+     
+    </ul>
+  </div>
+</nav>
+
+<!-- Jumbotron-->  
+	<div class="container">
+		<hr class="my-5">
+		<div class="jumbotron">
+  			<h1 id="head" class="display-3">Log In,Baby</h1>
+  			
+  			<h4 id="sub">Enter your email and password below to log in to Coffee Lover.</h4>
+  			
+		</div>
+	</div>
+
+<!-- Login Form -->
+
+<div class="container">
+	<form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <div class="form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Keep me logged in</label>
+  </div>
+  <hr class="my-1">
+  <button type="submit" class="btn btn-default btn-outline-dark">Login</button>
+</form>
+</div>
